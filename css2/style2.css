@@ -1,0 +1,151 @@
+body
+{
+	margin: 0;
+	color: #40414E;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+}	
+
+h1
+{
+	margin: 60px auto 0 auto;
+	line-height: 1.5;
+	font-size: 5.625rem;
+	color: #66BFBF;
+	font-family: 'Kaushan Script', cursive;
+}
+h2
+{
+	color: #66BFBF;
+	font-family: 'Patrick Hand', cursive;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+h3
+{
+	color: #11999E;
+	font-family: 'Patrick Hand', cursive;
+}
+a
+{
+	color: #11999E;
+	font-family: 'Patrick Hand', cursive;
+	margin:10px 20px;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #EAF6F6;
+}
+p
+{
+	font-size: 1.5rem;
+	line-height: 1;
+}
+hr
+{
+	border:dotted grey 6px;
+	border-bottom:none;
+	width: 4%;
+	margin: 100px auto;
+}
+
+
+.top-container
+{
+	
+	background-color: #235952;
+	position: relative;
+	padding-top: 100px;
+}
+.middle-container
+{
+	margin:100px 0;
+}
+
+.bottom-container
+{
+	background-color: #66BFBF;
+	padding: 50px 0 20px;
+}
+
+.skill-row
+{
+	margin:100px auto 100px auto;
+	text-align:left;
+	width: 50%
+
+
+}
+.pro
+{
+	text-decoration: underline;
+
+}
+.intro
+{
+	width: 30%;
+	margin: auto;
+}
+.con-mes
+{
+	width: 40%;
+	margin:40px auto 60px;
+}
+.top-cloud
+{
+	position: absolute;
+	right: 300px;
+	top:50px;
+}
+
+.bottom-cloud
+{
+	position: absolute;
+	left: 300px;
+	bottom: 500px;
+
+}
+.glass-img
+{
+	width:25%;
+	float: left;
+	margin-right: 30px;
+
+}
+.chilli-img
+{
+	width:25%;
+	float: right;
+	margin-left: 30px;
+	
+}
+.copy-right
+{
+	color: #EAF6F6;
+	font-size: 0.75rem;
+	padding: 20px 0;
+
+}
+.btn {
+	background-color: #79C4F1;
+	background: linear-gradient(to bottom, #79C4F1, #7BB2E4);
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 10px;
+	box-shadow: inset 1px 1px 20px 0px #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn:hover {
+	background: #1E62D0;
+	background: linear-gradient(to bottom, #1E62D0, #6DDDF3);
+}
